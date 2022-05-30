@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background: url(traditional-foods.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    background-color: gray;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.title{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    user-select: none;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 900px;
+}
+
+.title h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 885px;
+    margin-top: 10px;
+}
+
+.title .buttons{
+    margin: 35px 280px;   
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 1px solid #cc0000;
+    background: red;
+    cursor: pointer;
+    color: #ffb3b3;
+    transition: .4s;
+}
+
+.buttons button:hover{
+    background: #cc0000;
+}
+
+.buttons .btn{
+    margin-left: 25px;
+}
+
+
+
+
+    
